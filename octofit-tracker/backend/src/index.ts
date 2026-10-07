@@ -1,6 +1,8 @@
 import app, { baseUrl } from './server.js';
 import { connectDatabase } from './config/database.js';
 
+// asdadsad
+
 const port = Number(process.env.PORT ?? 8000);
 
 async function startServer(): Promise<void> {
